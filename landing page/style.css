@@ -107,7 +107,7 @@ figure img{
    
     
 }
-.content{
+.content,.performance{
     margin:50px 0px 10px 100px;
 }
 .content h1,p{
@@ -116,4 +116,81 @@ figure img{
 .content p{
     font-size:1.9rem;
     color:rgb(168, 158, 158);
+}
+.performance p{
+    font-size:1.9rem;
+    color:rgb(168, 158, 158);
+}
+.performance h1 p {
+    display:inline-block;
+}
+.features{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+
+    margin:50px 0px 0px 0px;
+}
+.box{
+    padding: 10px;
+    height:250px;
+    border-top: 1px solid black;
+    width:400px;
+}
+big{
+    font-size: 4rem;
+}
+.box h1{
+    font-size: 2rem;
+}
+.box p{
+    font-size:1.9rem;
+    color:rgb(168, 158, 158);
+}
+.price p{
+    font-size:2rem;
+    font-weight: 700;
+    margin:25%;
+}
+.price{
+    margin:40px;
+}
+.video2 video{
+    margin-left: 70px;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+/*shop button*/
+.button2{
+    width:100%;
+    height:200px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+.button2 button{
+    height:50px;
+    width:100px;
+    background-color: #083D77;
+    border-radius: 5px;
+    color:white;
+}
+.button2 button:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+footer{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+footer div{
+    margin-left:4%;
+    margin-top: 10px;
+
+}
+.f1 a {
+    text-decoration: underline;
+    color:#0071E3;
 }
