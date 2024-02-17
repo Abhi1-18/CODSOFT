@@ -1,0 +1,124 @@
+@media screen  and (max-width:896px) {
+    nav{
+        display: flex;
+        justify-content: flex-start;
+        height:20px;
+    }
+    .nav-main{
+        margin:0px;
+        align-items: flex-start;
+        width:120px;
+        height:550px;
+        
+        
+    }
+    .nav-element{
+        font-size: 0.8rem;
+        flex-direction: column;
+        
+    }
+    .nav-element li{
+        display: block;
+        margin: 10px;
+    }
+    .nav-element li:hover{
+        background-color: rgb(229, 203, 203);
+    }
+
+    .nav-main-below{
+        margin:0px 0px 0px 20px;
+        font-size: 0.8rem;
+    }
+   .button-buy{
+    right:40px;
+   }
+    .element2{
+        align-items: flex-start;
+    }
+    .hero{
+        margin-left:120px;
+        width:60%;
+        height:180px;
+    
+        
+    }
+    .hero-container1 h1{
+        font-size: 2.8rem;
+        
+    }
+    figure{
+        margin-left:80px;
+
+    }
+    figure video{
+        width: 400px;
+        
+    }
+    figure img{
+        width:298px
+    }
+    .content,.performance{
+        margin-left:20px;
+        
+    }
+    .content p{
+        font-size: 1.1rem;
+    }
+    .content h1{
+        font-size: 1rem;
+    }
+    .performance p{
+        font-size: 1rem;
+    }
+    .performance h1{
+        font-size: 1rem;
+    }
+    .performance h3{
+        font-size: 0.8rem;
+    }
+    .features{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .features div{
+        margin:30px;
+        height:200px;
+    }
+    .price{
+        text-align: left;
+    }
+    .price p{
+        
+        margin:20px;
+        font-size: 1.5rem;
+    }
+    .video2{
+        margin-left:0px;
+    }
+    .video2 video{
+        margin-left:50px;
+        width:80%;
+    }
+    .button2 button{
+        margin-right: 80px;
+    }
+    .footer{
+        justify-content: flex-start;
+        flex-direction: row;
+        align-items: self-start;
+    }
+    .f1{
+        height: 100px;
+        width:80%;
+        font-size: 0.9rem;
+        margin-right:200px;
+    }
+    .f2{
+        height: 100px;
+        width:80%;
+        font-size: 0.9rem;
+        margin-right:200px;
+    
+    }
+    
+}
