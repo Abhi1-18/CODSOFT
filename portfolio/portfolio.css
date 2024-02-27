@@ -13,6 +13,10 @@
     justify-content: space-between;
     align-items: center;
     background-color: transparent;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.5ms;
 }
 .socialmedia li{
     display: inline;
@@ -125,6 +129,7 @@ box-shadow: 0px 0px 27px 3px rgba(232,197,71,1);
     width:100%;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
                                         /* border: 1px solid white; */
 }
 .personalinfo,.details,.projects,.experience{
@@ -155,4 +160,53 @@ box-shadow: 0px 0px 27px 3px rgba(232,197,71,1);
 .projects p{
     color:#CDD1C4;
     margin:30px;
+}
+
+/*skills section*/
+
+.skills-container{
+    height:800px;
+    width:100%;
+    align-items: flex-start;
+                                        
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap; 
+}
+.skills-container div{
+    margin: 25px 10px 40px 40px;
+    
+}
+
+.container span{
+    margin-left: 120px;
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:200px;
+    width:200px;
+    border-radius:50%;
+        border: 7px solid rgba(232,197,71,1);
+        transition-property: all;
+        transition-duration: 2s;
+        transition-timing-function: ease-in;
+}
+.jj h1{
+    
+    text-align: center;
+    font-size: 2rem;
+}
+.jj strong{
+    color:rgba(232,197,71,1);
+}
+.circle:hover{
+    box-shadow: 8.5px 3px 22px 8px #e8c547;
+}
+
+/* navbar box shadow effect*/
+.navbar:hover{
+    box-shadow: 8.5px 3px 22px 8px #e8c547;
 }
